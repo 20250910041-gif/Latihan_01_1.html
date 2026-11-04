@@ -1,0 +1,138 @@
+/* Tampilan Dasar Keseluruhan Halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    margin: 0;
+    padding: 30px 15px;
+    line-height: 1.6;
+}
+
+/* Card Utama Halaman */
+.card-profil {
+    max-width: 750px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+/* Header Banner Atas */
+.header {
+    background: linear-gradient(135deg, #194d82, #4ca1af);
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.sub-judul {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+    opacity: 0.9;
+    font-style: italic;
+}
+
+/* Area Isi Konten Utama */
+.konten {
+    padding: 30px;
+}
+
+/* Pengaturan Sub Judul (H2 & H3) */
+h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    border-left: 4px solid #4ca1af;
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+/* Paragraf Pengantar */
+.teks-pengantar {
+    font-size: 15px;
+    color: #444444;
+}
+
+/* Tampilan Foto Keluarga */
+.kotak-foto {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.kotak-foto img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    border: 3px solid #ffffff;
+}
+
+/* Tampilan Kartu Tiap Anggota Keluarga */
+.item-anggota {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 15px;
+    transition: 0.2s ease;
+}
+
+.item-anggota:hover {
+    border-color: #4ca1af;
+    box-shadow: 0 2px 8px rgba(76, 161, 175, 0.15);
+}
+
+.item-anggota ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #4a5568;
+}
+
+.item-anggota li {
+    margin-bottom: 6px;
+}
+
+/* Kotak Informasi Kontak */
+.kotak-kontak {
+    background-color: #edf2f7;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.kotak-kontak p {
+    margin: 6px 0;
+}
+
+/* Garis Pembatas Halus */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #edf2f7;
+    margin: 25px 0;
+}
+
+/* Footer Bagian Bawah */
+.footer-teks {
+    background-color: #f8fafc;
+    text-align: center;
+    padding: 15px;
+    color: #718096;
+    border-top: 1px solid #edf2f7;
+}

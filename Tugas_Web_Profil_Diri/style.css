@@ -1,0 +1,121 @@
+/* Pengaturan Umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+.cv-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header-section {
+    background: #003366; 
+    color: #ffffff;
+    padding: 35px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.header-text h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.header-text h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #b0c4de;
+    margin-bottom: 12px;
+}
+
+.contact-info {
+    font-size: 13px;
+    color: #e2e8f0;
+    line-height: 1.8;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-section {
+    padding: 30px 40px;
+}
+
+.section-title {
+    font-size: 16px;
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.section-title:first-child {
+    margin-top: 0;
+}
+
+p {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.cv-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.cv-table td {
+    padding: 7px 0;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.cv-table td.label {
+    width: 32%;
+    font-weight: 600;
+    color: #444;
+}
+
+.cv-table td.value {
+    width: 68%;
+    color: #555;
+}
+
+.cv-footer {
+    text-align: center;
+    padding: 15px;
+    background: #f8fafc;
+    font-size: 12px;
+    color: #718096;
+    border-top: 1px solid #e2e8f0;
+}

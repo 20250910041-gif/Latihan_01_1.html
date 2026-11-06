@@ -259,4 +259,26 @@ h3 {
 
 .kotak-kontak {
     background-color: #edf2f7;
-    padding: 12px
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.kotak-kontak p {
+    margin: 6px 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #edf2f7;
+    margin: 25px 0;
+}
+
+.footer-teks {
+    background-color: #f8fafc;
+    text-align: center;
+    padding: 15px;
+    color: #718096;
+    border-top: 1px solid #e2e8f0;
+}

@@ -112,7 +112,7 @@ body {
     border-bottom: 2px solid #feefb8;
 }
 
-/* MAIN LAYOUT 2 KOLOM (KONTEN + SIDEBAR PINGGIR) */
+/* MAIN LAYOUT 2 KOLOM */
 .main-layout {
     display: flex;
     gap: 25px;
@@ -122,11 +122,11 @@ body {
 }
 
 .main-content {
-    flex: 3; /* Lebar area konten utama */
+    flex: 3;
 }
 
 .sidebar {
-    flex: 1; /* Lebar area sidebar di sebelah kanan */
+    flex: 1;
     position: sticky;
     top: 60px;
 }
@@ -153,10 +153,10 @@ body {
     object-fit: cover;
 }
 
-/* FOTO RASIO 3:4 (UNTUK PROFIL KELUARGA) */
+/* FOTO RASIO 4:3 (UNTUK PROFIL KELUARGA) */
 .avatar-img-4x3 {
     width: 160px;
-    height: 120px; /* Rasio 4:3 */
+    height: 120px;
     border-radius: 8px;
     border: 3px solid #feefb8;
     object-fit: cover;
@@ -323,7 +323,7 @@ a.contact-val:hover {
     color: #93c5fd;
 }
 
-/* SIDEBAR WIDGETS (DI PINGGIR KANAN) */
+/* SIDEBAR WIDGETS */
 .widget {
     background: #17253e;
     border: 1px solid rgba(147, 197, 253, 0.2);
@@ -472,22 +472,6 @@ a.contact-val:hover {
     font-weight: 600;
 }
 
-/* DISABLED LINK */
-.disabled-link {
-    padding: 6px 10px;
-    color: #64748b;
-    font-size: 13px;
-    background: #0f172a;
-    border-radius: 6px;
-    border: 1px dashed rgba(147, 197, 253, 0.2);
-    margin-top: 8px;
-}
-
-.disabled-link small {
-    color: #475569;
-    font-style: italic;
-}
-
 /* FOOTER */
 .main-footer {
     background: #0b1324;
@@ -541,7 +525,7 @@ a.contact-val:hover {
     color: #64748b;
 }
 
-/* RESPONSIVE LAYOUT UNTUK TAMPILAN HP */
+/* RESPONSIVE LAYOUT */
 @media (max-width: 850px) {
     .main-layout {
         flex-direction: column;
